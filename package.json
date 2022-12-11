@@ -1,7 +1,7 @@
 {
-  "name": "cra-template-react-chakra-chromium-extension",
+  "name": "cra-template-chakra-chromium-extension",
   "version": "0.0.1",
   "packageManager": "yarn@3.3.0",
-  "repository": "git@github.com:kgilliam125/cra-template-react-chakra-chromium-extension.git",
+  "repository": "git@github.com:kgilliam125/cra-template-chakra-chromium-extension.git",
   "license": "MIT"
 }

@@ -6,10 +6,10 @@ Use the following to create your app:
 
 Using npm
 ```
-npx create-react-app my-app --template react-chakra-chromium-extension
+npx create-react-app my-app --template chakra-chromium-extension
 ```
 
 Using yarn
 ```
-yarn create react-app my-app --template react-chakra-chromium-extension
+yarn create react-app my-app --template chakra-chromium-extension
 ```
