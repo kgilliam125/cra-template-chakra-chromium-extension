@@ -1,6 +1,6 @@
 {
   "name": "cra-template-chakra-chromium-extension",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "packageManager": "yarn@3.3.0",
   "repository": "git@github.com:kgilliam125/cra-template-chakra-chromium-extension.git",
   "license": "MIT"

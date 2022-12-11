@@ -11,10 +11,10 @@
   },
   "action": {
     "default_popup": "index.html",
-    "default_title": "Generate awesome tweet"
+    "default_title": "An awesome extension built with Chakra"
   },
   "background": {
-    "service_worker": "./static/js/contextMenuServiceWorker.js"
+    "service_worker": "./static/js/serviceWorker.js"
   },
   "host_permissions": ["https://*/*"],
   "permissions": ["contextMenus", "tabs", "storage"],

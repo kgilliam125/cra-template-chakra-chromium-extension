@@ -7,6 +7,7 @@ module.exports = {
                 entry: {
                     main: [env === 'development' &&
                         require.resolve('react-dev-utils/webpackHotDevClient'), paths.appIndexJs].filter(Boolean),
+                    serviceWorker: './src/scripts/serviceWorker.ts',
                     content: './src/scripts/content.ts',
                 },
                 output: {
