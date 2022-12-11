@@ -1,0 +1,27 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "manifest_version": 3,
+  "version": "0.1.1",
+  "icons": {
+    "48": "assets/48.png",
+    "72": "assets/72.png",
+    "96": "assets/96.png",
+    "144": "assets/144.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Generate awesome tweet"
+  },
+  "background": {
+    "service_worker": "./static/js/contextMenuServiceWorker.js"
+  },
+  "host_permissions": ["https://*/*"],
+  "permissions": ["contextMenus", "tabs", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["./static/js/content.js"]
+    }
+  ]
+}
