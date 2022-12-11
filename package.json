@@ -1,5 +1,5 @@
 {
-  "name": "create-react-chakra-chromium-extension-template",
+  "name": "react-chakra-chromium-extension-template",
   "version": "0.0.1",
   "packageManager": "yarn@3.3.0",
   "repository": "git@github.com:kgilliam125/react-chakra-chromium-extension-template.git",
