@@ -13,3 +13,8 @@ Using yarn
 ```
 yarn create react-app my-app --template chakra-chromium-extension
 ```
+
+## Find a problem?
+[Submit an issue](https://github.com/kgilliam125/cra-template-chakra-chromium-extension/issues) and describe what you're seeing.
+
+Enjoy, can't wait to see what you make ☕
